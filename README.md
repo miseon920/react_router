@@ -23,7 +23,7 @@
         ```<Link to="/">홈</Link>```
     - import { NavLink } from "react-router-dom";
         - active 효과를 줄 수 있다.
-        - className={({ isActive }) => (isActive ? "원하는클래스" : "")} : 클래스를 주어 스타일을 적용 할 수 있다.
+        - className={({ isActive }) => (isActive ? "원하는클래스" : "")} : 클래스를 주어 스타일을 적용 할 수 있다. 쓰지않을 경우 기본 active 효과가 붙는다.
         > 
         ```<NavLink to="/about">About</NavLink>```
 

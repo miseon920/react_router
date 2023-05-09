@@ -5,11 +5,13 @@ import Sub from '../pages/Sub';
 import Member from '../pages/Member';
 import About from './About';
 import MemberItem from './MemberItem';
+import Nav from './Nav';
 
 
 const AppRouter = () => {
   return (
     <>
+        <Nav></Nav>
         <Routes>
             <Route index element={<Main/>} />
             {/* about Outlet 사용하여 중첩 해봄 = 레이아웃사용시 많이 사용함 */}
