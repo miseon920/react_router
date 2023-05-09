@@ -33,9 +33,9 @@
             <Route path="about" element={<About/>} /> 
         </Route>
     - sub/about 으로 접근 가능 sub주소와 컴포넌트도 함께 사용한다.
-    - 부모인 sub 에서 import { Outlet } from 'react-router-dom'; 한 후 자식 about가 보여줄 위치에 <Outlet/> 을 쓴다.      
+    - 부모인 sub 에서 import { Outlet } from 'react-router-dom'; 한 후 자식 about가 보여줄 위치에 ```<Outlet/>``` 을 쓴다.      
 
-                
+
 <https://velog.io/@reasonz/2022.07.14-%EB%A6%AC%EC%95%A1%ED%8A%B8-%EB%9D%BC%EC%9A%B0%ED%84%B0-%EC%A4%91%EC%B2%A9-%EB%9D%BC%EC%9A%B0%ED%8C%85-nested-routes-outlet>
 
 <https://jinyisland.kr/post/react-router/>
