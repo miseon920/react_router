@@ -20,12 +20,12 @@
 5. gnb 등에 a 태그 대신 Link 태그를 이용하여 to로 경로를 지정해 준다.
     - import { Link } from "react-router-dom";
         > 
-        ```<pre><Link to="/">홈</Link></pre>```
+        ```<Link to="/">홈</Link>```
     - import { NavLink } from "react-router-dom";
         - active 효과를 줄 수 있다.
         - className={({ isActive }) => (isActive ? "원하는클래스" : "")} : 클래스를 주어 스타일을 적용 할 수 있다.
         > 
-        ```<pre><NavLink to="/about">About</NavLink></pre>```
+        ```<NavLink to="/about">About</NavLink>```
 
 6. 중첩라우팅 
     >
